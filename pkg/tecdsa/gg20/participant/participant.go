@@ -24,7 +24,7 @@ import (
 // Participant is a tECDSA player that receives information from a trusted dealer
 type Participant struct {
 	dealer.Share
-	sk *paillier.SecretKey
+	Sk *paillier.SecretKey
 }
 
 // Signer is a tECDSA player that holds the additive shares needed for performing the signing operation
